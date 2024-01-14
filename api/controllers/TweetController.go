@@ -14,6 +14,6 @@ func NewTweetController() *tweetController {
 	return &tweetController{}
 }
 
-func (t *tweetController) findAll(ctx *gin.Context) {
+func (t *tweetController) FindAll(ctx *gin.Context) {
 	ctx.JSON(http.StatusOK, t.tweets)
 }
