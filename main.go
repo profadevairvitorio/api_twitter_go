@@ -12,6 +12,3 @@ func main() {
 
 	app.Run("localhost:3001")
 }
-
-// test curl http://localhost:3001/v1
-// => {"teste":"OK!"}
