@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"api/api/entities"
+	"api/entities"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )
